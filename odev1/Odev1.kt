@@ -71,8 +71,8 @@ fun main() {
     println("Telefon Modeli: $telefonModeli")
     var ekranBoyutu = 15.6
     println("Ekran Boyutu: $ekranBoyutu")
-    val agırlık = 66.4
-    println("Agirlik: $agırlık")
+    val agirlik = 66.4
+    println("Agirlik: $agirlik")
     val ulusalGun = "23 Nisan"
     println("Ulusal Gun: $ulusalGun")
     val tatilGun = "1 Mayis"
@@ -91,8 +91,7 @@ fun main() {
     println("Kupon Suresi: $kuponSuresi")
     val kuponKodu = 23212
     println("Kupon Kodu: $kuponKodu")
-    var faturaAdresi = "Ev"
+    var faturaAdresi = "Evğ"
     println("Fatura Adresi: $faturaAdresi")
-
 
 }
