@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.odev4.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/agidis"
+            app:destination="@id/sayfaAFragment" />
+        <action
+            android:id="@+id/xgidis"
+            app:destination="@id/sayfaXFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sayfaAFragment"
+        android:name="com.example.odev4.SayfaAFragment"
+        android:label="fragment_sayfa_a"
+        tools:layout="@layout/fragment_sayfa_a" >
+        <action
+            android:id="@+id/bgidis"
+            app:destination="@id/sayfaBFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sayfaBFragment"
+        android:name="com.example.odev4.SayfaBFragment"
+        android:label="fragment_sayfa_b"
+        tools:layout="@layout/fragment_sayfa_b" >
+        <action
+            android:id="@+id/action_sayfaBFragment_to_sayfaYFragment"
+            app:destination="@id/SayfaYFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SayfaYFragment"
+        android:name="com.example.odev4.SayfaYFragment"
+        android:label="fragment_sayfa_y"
+        tools:layout="@layout/fragment_sayfa_y" >
+        <action
+            android:id="@+id/anasayfagidis"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sayfaXFragment"
+        android:name="com.example.odev4.SayfaXFragment"
+        android:label="fragment_sayfa_x"
+        tools:layout="@layout/fragment_sayfa_x" >
+        <action
+            android:id="@+id/xgidisy"
+            app:destination="@id/SayfaYFragment" />
+    </fragment>
+</navigation>
