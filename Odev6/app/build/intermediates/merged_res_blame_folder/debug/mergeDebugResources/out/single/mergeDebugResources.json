@@ -36,8 +36,12 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.odev6.app-debug-4:/drawable_online.png.flat",
-        "source": "com.example.odev6.app-main-6:/drawable/online.png"
+        "merged": "com.example.odev6.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.odev6.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.odev6.app-debug-4:/layout_fragment_anasayfa.xml.flat",
+        "source": "com.example.odev6.app-main-6:/layout/fragment_anasayfa.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -60,12 +64,20 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.odev6.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.odev6.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\layout_fragment_anasayfa.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\layout\\fragment_anasayfa.xml"
     },
     {
-        "merged": "com.example.odev6.app-debug-4:/drawable_indirim.png.flat",
-        "source": "com.example.odev6.app-main-6:/drawable/indirim.png"
+        "merged": "com.example.odev6.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.odev6.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.odev6.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.odev6.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\layout_hizlimarketcard_tasarim.xml.flat",
@@ -80,8 +92,16 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\drawable\\yildiz.jpg"
     },
     {
+        "merged": "com.example.odev6.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.odev6.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.odev6.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.odev6.app-main-6:/xml/data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\drawable_saat.png.flat",
@@ -94,6 +114,10 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\navigation_main_activity_nav.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\navigation\\main_activity_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\drawable_indirim.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\drawable\\indirim.png"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\drawable_ic_launcher_foreground.xml.flat",
@@ -122,6 +146,14 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\drawable_trendyolhizliyemek.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\drawable\\trendyolhizliyemek.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\drawable_online.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\drawable\\online.png"
+    },
+    {
+        "merged": "com.example.odev6.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.odev6.app-main-6:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
