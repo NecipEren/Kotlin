@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.odev6.app-mergeDebugResources-3:/layout/hizlimarketcard_tasarim.xml",
+        "source": "com.example.odev6.app-main-6:/layout/hizlimarketcard_tasarim.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-mergeDebugResources-3:\\layout\\hizlimarketcard_tasarim.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\layout\\hizlimarketcard_tasarim.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-mergeDebugResources-3:\\layout\\fragment_anasayfa.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.example.odev6.app-main-6:\\layout\\fragment_anasayfa.xml"
+    }
+]
