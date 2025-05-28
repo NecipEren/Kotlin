@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvSepetBos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sepetiniz boş"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#9E9E9E"
+        android:padding="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSepet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:contentDescription="Sepet içeriği listesi"/>
+
+    <!-- ✅ Toplam fiyat alanı -->
+    <TextView
+        android:id="@+id/tvToplamFiyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam: 0 ₺"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#009688"
+        android:gravity="end"
+        android:paddingTop="8dp"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/yemekListFragment">
+
+    <fragment
+        android:id="@+id/yemekListFragment"
+        android:name="com.example.yemeksiparisapp.ui.fragment.YemekListFragment"
+        android:label="Yemek Listesi">
+        <action
+            android:id="@+id/detayGecis"
+            app:destination="@id/detayFragment" />
+        <action
+            android:id="@+id/sepetGecis"
+            app:destination="@id/sepetFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detayFragment"
+        android:name="com.example.yemeksiparisapp.ui.fragment.DetayFragment"
+        android:label="Yemek Detayı">
+        <argument
+            android:name="secilenYemek"
+            app:argType="com.example.yemeksiparisapp.data.model.Yemek" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sepetFragment"
+        android:name="com.example.yemeksiparisapp.ui.fragment.SepetFragment"
+        android:label="Sepet" />
+</navigation>
